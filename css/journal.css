@@ -1,0 +1,61 @@
+/* MAIN PAGE OF MINDFUL ORGANIZATION STYLES */
+
+.journal-section {
+  padding: 0 1rem;
+  font-family: var(--PRIMARY-FONT);
+}
+
+.journal-head {
+  margin-bottom: 1.5rem;
+}
+
+.journal-head h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.journal-head p {
+  font-family: var(--);
+}
+
+.journal-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.journal,
+.add_to_journal {
+  background: var(--CP-BG-COLOR-BLACK);
+  width: 150px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0.8rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+}
+
+.journal p:first-child {
+  align-self: flex-start;
+  padding-left: 0.8rem;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.journal button {
+  background: var(--MAIN-BG-COLOR-BLACK);
+  color: white;
+  height: 35px;
+  width: 65px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: var(--PRIMARY-FONT);
+}
+
+.add_to_journal {
+  justify-content: center;
+  font-size: 4rem;
+  cursor: pointer;
+}

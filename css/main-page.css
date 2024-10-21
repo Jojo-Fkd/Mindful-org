@@ -1,0 +1,101 @@
+/* MAIN PAGE OF MINDFUL ORGANIZATION STYLES */
+
+.main-section {
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+}
+
+.main-section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3.user-greeting {
+  font-family: var(--SECONDARY-FONT);
+  font-weight: 200;
+  font-size: 1.7rem;
+}
+
+.aspect-container {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.aspect-welcome {
+  font-family: var(--PRIMARY-FONT);
+  font-size: 1.2rem;
+}
+
+.aspect {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 25px;
+  width: 100%;
+  background: var(--CP-BG-COLOR);
+  height: 200px;
+  overflow: auto;
+}
+
+h4.aspect-head {
+  font-family: var(--SECONDARY-FONT);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-todo {
+  cursor: pointer;
+}
+
+h4.aspect-head p:last-child {
+  font-weight: 500;
+  font-family: var(--PRIMARY-FONT);
+}
+
+.todo-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--CP-BG-COLOR-BLACK);
+  padding: 0.8rem 0.9rem;
+  font-family: var(--PRIMARY-FONT);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.todo-control {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.todo-control input {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+}
+
+.delete-option {
+  text-decoration: underline;
+  align-self: flex-end;
+  font-family: var(--PRIMARY-FONT);
+  cursor: pointer;
+}
+
+.add_aspect {
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonathan's mindful'</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/journal.css" />
+    <script defer src="js/main.js"></script>
+    <script defer src="js/journal.js"></script>
+  </head>
+  <body>
+    <!-- POPUPS -->
+
+    <div class="popup-bg">
+      <form class="journal-form">
+        <article class="add-to-journal">
+          <div class="add-head">
+            <div class="close">x</div>
+            <p>Add To Your Journal</p>
+          </div>
+          <div class="title-input">
+            <span>Express your day in one word</span>
+            <input type="text" />
+          </div>
+          <button class="journal-btn" type="button">Write Your Journal</button>
+        </article>
+        <article class="add-to-journal add_2">
+          <div class="add-head">
+            <p>date</p>
+            <p>This is your safe space</p>
+          </div>
+          <div class="title-input">
+            <textarea placeholder="It all starts with one word"></textarea>
+          </div>
+          <button class="journal-btn">Add To Journal</button>
+        </article>
+      </form>
+      <article class="journal-view">
+        <div class="view-head">
+          <p>10/13/14</p>
+          <p>"Remarkable"</p>
+        </div>
+        <section class="journal-field">
+          <p>On this day, you wrote...</p>
+          <div></div>
+        </section>
+        <button class="cancel">Cancel</button>
+      </article>
+
+      <!-- SETTINGS -->
+
+      <article class="setting">
+        <div class="setting-head">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20px"
+            height="20px"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="black"
+              d="M17.707 2.293a1 1 0 0 0-1.414 0L14 4.586l-1.293-1.293a1 1 0 0 0-1.414 0l-6 6a1 1 0 0 0 1.414 1.414L12 5.414l.586.586l-2.293 2.293l-7 7A1 1 0 0 0 3 16v4a1 1 0 0 0 1 1h4a1 1 0 0 0 .707-.293l7-7l6-6a1 1 0 0 0 0-1.414zm-3 4.414L17 4.414L19.586 7L15 11.586L12.414 9zM5 16.414l6-6L13.586 13l-6 6H5z"
+            />
+          </svg>
+          <figure>
+            <img
+              src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+            />
+            <figcaption>
+              <ul>
+                <li class="name">Jonathan Fekadu</li>
+                <li class="email">jonathanfekadu1@gmail.com</li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="password">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20px"
+            height="20px"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="black"
+              d="M17.707 2.293a1 1 0 0 0-1.414 0L14 4.586l-1.293-1.293a1 1 0 0 0-1.414 0l-6 6a1 1 0 0 0 1.414 1.414L12 5.414l.586.586l-2.293 2.293l-7 7A1 1 0 0 0 3 16v4a1 1 0 0 0 1 1h4a1 1 0 0 0 .707-.293l7-7l6-6a1 1 0 0 0 0-1.414zm-3 4.414L17 4.414L19.586 7L15 11.586L12.414 9zM5 16.414l6-6L13.586 13l-6 6H5z"
+            />
+          </svg>
+          <div class="field">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20px"
+            height="20px"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill="black"
+              d="M.143 2.31a.75.75 0 0 1 1.047-.167l14.5 10.5a.75.75 0 1 1-.88 1.214l-2.248-1.628C11.346 13.19 9.792 14 8 14c-1.981 0-3.67-.992-4.933-2.078C1.797 10.832.88 9.577.43 8.9a1.62 1.62 0 0 1 0-1.797c.353-.533.995-1.42 1.868-2.305L.31 3.357A.75.75 0 0 1 .143 2.31m1.536 5.622A.12.12 0 0 0 1.657 8q-.001.033.022.068c.412.621 1.242 1.75 2.366 2.717C5.175 11.758 6.527 12.5 8 12.5c1.195 0 2.31-.488 3.29-1.191L9.063 9.695A2 2 0 0 1 6.058 7.52L3.529 5.688a14.2 14.2 0 0 0-1.85 2.244M8 3.5c-.516 0-1.017.09-1.499.251a.75.75 0 1 1-.473-1.423A6.2 6.2 0 0 1 8 2c1.981 0 3.67.992 4.933 2.078c1.27 1.091 2.187 2.345 2.637 3.023a1.62 1.62 0 0 1 0 1.798c-.11.166-.248.365-.41.587a.75.75 0 1 1-1.21-.887c.148-.201.272-.382.371-.53a.12.12 0 0 0 0-.137c-.412-.621-1.242-1.75-2.366-2.717C10.825 4.242 9.473 3.5 8 3.5"
+            />
+          </svg>
+        </div>
+        <section class="theme">
+          <p>Color Theme:</p>
+          <ul>
+            <li id="black-theme" class="active">
+              <div></div>
+              <div></div>
+              <div></div>
+            </li>
+            <li id="green-theme">
+              <div></div>
+              <div></div>
+              <div></div>
+            </li>
+            <li id="blue-theme">
+              <div></div>
+              <div></div>
+              <div></div>
+            </li>
+            <li id="orange-theme">
+              <div></div>
+              <div></div>
+              <div></div>
+            </li>
+          </ul>
+        </section>
+        <button class="cancel">Cancel</button>
+      </article>
+    </div>
+
+    <!-- HEADER -->
+
+    <header class="lighter">
+      <h1 class="logo light">Mindful Organization</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><button class="dark">Dashboard</button></a>
+          </li>
+          <li class="setting-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30px"
+              height="30px"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="var(----MAIN-BG-COLOR-BLACK)"
+                d="M12 15.5A3.5 3.5 0 0 1 8.5 12A3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5a3.5 3.5 0 0 1-3.5 3.5m7.43-2.53c.04-.32.07-.64.07-.97s-.03-.66-.07-1l2.11-1.63c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.31-.61-.22l-2.49 1c-.52-.39-1.06-.73-1.69-.98l-.37-2.65A.506.506 0 0 0 14 2h-4c-.25 0-.46.18-.5.42l-.37 2.65c-.63.25-1.17.59-1.69.98l-2.49-1c-.22-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64L4.57 11c-.04.34-.07.67-.07 1s.03.65.07.97l-2.11 1.66c-.19.15-.25.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1.01c.52.4 1.06.74 1.69.99l.37 2.65c.04.24.25.42.5.42h4c.25 0 .46-.18.5-.42l.37-2.65c.63-.26 1.17-.59 1.69-.99l2.49 1.01c.22.08.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64z"
+              />
+            </svg>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN-CONTENT -->
+
+    <main>
+      <!-- COMMON SIDE PANEL -->
+
+      <section id="side-panel" class="lighter">
+        <article class="goals-section">
+          <p class="modified-date"></p>
+          <div class="goals-head">
+            <h3 class="dark-text">Goals</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20px"
+              height="20px"
+              viewBox="0 0 24 24"
+            >
+              <path fill="black" d="M11 13H5v-2h6V5h2v6h6v2h-6v6h-2z" />
+            </svg>
+          </div>
+          <p>One step at a time, start with one!</p>
+        </article>
+        <article class="quote-section">
+          <ul>
+            <li class="date"></li>
+            <li class="quote">"The only thing to fear is fear itself"</li>
+            <li>Quote of the day</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- MINDFUL ORGANIZATION JOUNRAL SECTION -->
+
+      <section class="journal-section">
+        <div class="journal-head">
+          <h3>User's Journals (0)</h3>
+          <p>Only when we look back, do we know how far we have come</p>
+        </div>
+        <article class="journal-container">
+          <div class="add_to_journal lighter">+</div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
