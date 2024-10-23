@@ -25,7 +25,6 @@ for (let i = 0; i < journalLocalStorage.length; i++) {
     div,
     journalContainer.firstChild
   );
-  console.log(journal);
 
   /* VIEW JOURNAL */
 

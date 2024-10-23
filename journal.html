@@ -49,6 +49,69 @@
         </section>
         <button class="cancel">Cancel</button>
       </article>
+      <form class="add-goal-form">
+        <!-- ADD GOAL POPUP -->
+
+        <article class="add-to-goal">
+          <div class="add-head">
+            <div class="close">x</div>
+            <p>What is your new goal?</p>
+          </div>
+          <label class="title-input" for="goal-name">
+            <input type="text" id="goal-name" required />
+          </label>
+          <div>
+            <button class="add-btn">Write Your Reason</button>
+          </div>
+        </article>
+
+        <!-- ADD GOAL - SECOND STEP -->
+
+        <article class="add-to-goal add_2">
+          <div class="add-head">
+            <div class="close">x</div>
+            <p>What is your reason for this goal?</p>
+          </div>
+          <label class="title-input" for="goal-reason">
+            <textarea
+              placeholder="It all starts with one word"
+              required
+              id="reason"
+              autofocus="off"
+            ></textarea>
+          </label>
+          <button class="add-btn">Add</button>
+        </article>
+      </form>
+
+      <!-- GOAL DETAIL POPUP -->
+
+      <article class="goal-popup">
+        <section class="goal-popup-head">
+          <div>
+            <p></p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20px"
+              height="20px"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill="black"
+                fill-rule="evenodd"
+                d="M10 3h3v1h-1v9l-1 1H4l-1-1V4H2V3h3V2a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1zM9 2H6v1h3zM4 13h7V4H4zm2-8H5v7h1zm1 0h1v7H7zm2 0h1v7H9z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <p class="goal-date-set">Date set: <span>10/12/24</span></p>
+        </section>
+        <section class="reason">
+          <p>--Reason--</p>
+          <p></p>
+        </section>
+        <button class="cancel">Cancel</button>
+      </article>
 
       <!-- SETTINGS -->
 
@@ -188,7 +251,7 @@
               <path fill="black" d="M11 13H5v-2h6V5h2v6h6v2h-6v6h-2z" />
             </svg>
           </div>
-          <p>One step at a time, start with one!</p>
+          <p>One step at a time</p>
         </article>
         <article class="quote-section">
           <ul>

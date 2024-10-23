@@ -190,6 +190,48 @@ p.modified-date {
   align-self: flex-end;
 }
 
+/* SIDE PANEL RESPONSIVE DESIGN */
+
+@media screen and (max-width: 990px) {
+  #side-panel {
+    width: 300px;
+  }
+
+  .quote-section ul {
+    gap: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #side-panel {
+    width: 250px;
+  }
+
+  .goal {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.8rem;
+  }
+
+  .quote-section ul li.date,
+  .quote-section ul li:last-child {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #side-panel {
+    width: 100%;
+  }
+}
+
 /* POPUPS */
 
 .popup-bg {
@@ -222,6 +264,7 @@ p.modified-date {
   display: none;
   gap: 1.5rem;
   flex-direction: column;
+  width: 320px;
 }
 
 .setting.active {
@@ -382,7 +425,7 @@ p.modified-date {
 /* GOALS POPUP */
 
 .goal-popup {
-  width: 400px;
+  width: 320px;
   display: none;
   gap: 2rem;
   flex-direction: column;
@@ -650,6 +693,12 @@ p.modified-date {
   border: none;
   border-radius: 5px;
   font-family: var(--PRIMARY-FONT);
+}
+
+@media screen and (max-width: 390px) {
+  .add-to-goal.add_2 textarea {
+    width: 260px;
+  }
 }
 
 /* ADD TODO */

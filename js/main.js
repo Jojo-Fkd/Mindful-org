@@ -94,13 +94,25 @@ addToGoal.onclick = () => {
     popupBg.classList.add("active");
     addGoalPopup.classList.add("active");
 
+    addGoalPopup.querySelector(".close").onclick = () => {
+      popupBg.classList.remove("active");
+      addGoalPopup.classList.remove("active");
+    };
+
     addGoalPopup.querySelector("button").onclick = () => {
       addGoalPopup.classList.remove("active");
       const newGoal = addGoalPopup.querySelector("input").value;
       // SECOND STEP
       secondPopup.classList.add("active");
+
+      secondPopup.querySelector(".close").onclick = () => {
+        popupBg.classList.remove("active");
+        secondPopup.classList.remove("active");
+      };
+
       addGoalForm.addEventListener("submit", (event) => {
         event.preventDefault();
+
         const reason = secondPopup.querySelector("textarea").value; // SAVE TO SERVER. WHERE WE WILL RETRIEVE AND DISPLAY ON THE TODO DETAILS
         const currentDate = new Date();
 

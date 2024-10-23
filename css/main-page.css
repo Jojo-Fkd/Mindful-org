@@ -99,3 +99,56 @@ h4.aspect-head p:last-child {
 .add_aspect {
   margin-top: 1.5rem;
 }
+
+/* ASPECT PAGE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 990px) {
+  .aspect-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .aspect {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .aspect {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h3.user-greeting {
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+
+  .aspect-container {
+    margin-top: 1rem;
+  }
+
+  .aspect-welcome {
+    font-size: 1rem;
+  }
+
+  .add_aspect {
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .aspect {
+    height: 150px;
+  }
+
+  h4.aspect-head {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  h4.aspect-head p:last-child {
+    font-size: 0.9rem;
+  }
+}
