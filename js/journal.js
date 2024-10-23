@@ -11,7 +11,7 @@ const journalContainer = document.querySelector(".journal-container");
 /* RENDERING JOURNAL PAGE */
 
 const journalHead = document.querySelector(".journal-head h3");
-journalHead.innerHTML = `Jonathan's Journals (${journalLocalStorage.length})`;
+journalHead.innerHTML = `User's Journals (${journalLocalStorage.length})`;
 
 for (let i = 0; i < journalLocalStorage.length; i++) {
   const journal = journalLocalStorage[i];
