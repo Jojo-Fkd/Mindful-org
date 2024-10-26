@@ -3,6 +3,7 @@
 .main-section {
   padding: 0 1rem;
   padding-bottom: 1rem;
+  width: 100%;
 }
 
 .main-section-head {
@@ -115,6 +116,12 @@ h4.aspect-head p:last-child {
 @media screen and (max-width: 800px) {
   .aspect {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .aspect-container {
+    align-self: stretch;
   }
 }
 
